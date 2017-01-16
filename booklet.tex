@@ -4,6 +4,7 @@
 \usetikzlibrary{arrows,shapes}
 
 \newcommand{\heading}[1] {
+\bigskip
 \textrm{\bfseries #1}
 }
 
@@ -11,7 +12,15 @@
 
 % FIXME: Would require floats: \listoflistings
 
+\heading{Python: Read line-based JSON records}
+\inputminted{python}{read_json_lines.py}
+
 \heading{Shell: Build and run}
 \inputminted{sh}{build_and_run.sh}
+
+\pagebreak
+
+\heading{SQL: Create intermediate tables for multi-stage calculation.}
+\inputminted{sql}{create_select.sql}
 
 \end{document}
