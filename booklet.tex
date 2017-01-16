@@ -1,0 +1,17 @@
+\documentclass{article}
+\usepackage{minted}
+\usepackage{tikz}
+\usetikzlibrary{arrows,shapes}
+
+\newcommand{\heading}[1] {
+\textrm{\bfseries #1}
+}
+
+\begin{document}
+
+% FIXME: Would require floats: \listoflistings
+
+\heading{Shell: Build and run}
+\inputminted{sh}{build_and_run.sh}
+
+\end{document}
